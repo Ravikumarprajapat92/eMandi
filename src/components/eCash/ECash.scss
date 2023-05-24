@@ -1,0 +1,52 @@
+.ecash-container {
+    margin-top: 50px;
+    .ecash-img-conainer{
+        position: relative;
+        display: flex;
+        border-radius: 12px;
+        border: 1px solid white;
+        overflow: hidden;
+
+        .ecash-img{
+            min-height: 280px;
+            object-fit: cover;
+            width: 50%;
+        }
+
+        .ecash-ribbion-bottom {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #FDE96C80;
+        }
+
+        .ecash-text-container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            .yellow-line {
+                border-top: 2px solid #FDE96C;
+                opacity: 1;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .ecash-btn {
+                display: inline-flex;
+                background-color: white;
+                border-radius: 50%;
+                width: 26px;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ecash-img{
+        height: 700px;
+    }
+}

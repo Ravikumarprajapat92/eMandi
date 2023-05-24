@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import ECash from './components/eCash/ECash';
+import Navbar from './components/navbar';
+import StatBar from './components/statBar/StatBar';
+import WelcomeEmandi from './components/welcomeEmandi/WelcomeEmandi';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <br/>
+      <StatBar/>
+      <ECash/>
+      <WelcomeEmandi/>
     </div>
   );
 }

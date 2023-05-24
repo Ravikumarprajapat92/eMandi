@@ -1,0 +1,35 @@
+.stat-container {
+    background-color: #fff5ea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .spotHeading {
+        margin-right: 10px;
+    }
+    .spotValue {
+        font-weight: 500;
+    }
+    .stat-data-container {
+        position: relative;
+    }
+
+    .stat-fade {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 80px;
+        position: absolute;
+        background-color: #fff5eaab;
+        
+    }
+
+    .stat-data-container::after {
+        right: 0;
+        @extend .stat-fade
+    }
+
+    .stat-data-container::before {
+        left: 0;
+        @extend .stat-fade
+    }
+}
