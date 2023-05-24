@@ -11,4 +11,11 @@ export const Images = {
     thumbUp: '/assets/icons/thumb-up.svg',
     handHeart: '/assets/icons/hand-Hart.svg',
     rightArrow: '/assets/icons/right-arrow.svg',
+    leftArrow: '/assets/icons/arrow-left.svg',
+    group1: '/assets/icons/Group 85720.svg',
+    group2: '/assets/icons/Group 85726.svg',
+    group3: '/assets/icons/Group 85722.svg',
+    group4: '/assets/icons/Group 85721.svg',
+    vid1: '/assets/icons/Rectangle 274.png',
+    
 }

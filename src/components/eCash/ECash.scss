@@ -33,16 +33,17 @@
                 margin-left: 20px;
                 margin-right: 20px;
             }
-            .ecash-btn {
-                display: inline-flex;
-                background-color: white;
-                border-radius: 50%;
-                width: 26px;
-                align-items: center;
-                justify-content: center;
-            }
         }
     }
+}
+
+.ecash-btn {
+    display: inline-flex !important;
+    background-color: white;
+    border-radius: 50% !important;
+    width: 26px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
